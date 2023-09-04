@@ -1,0 +1,27 @@
+.botao-menu{
+    border: 1px solid gray;
+    height: 5rem;
+    padding-inline: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    border: 1px solid gray;
+    width: 12rem;
+    height: calc(100vh - 4rem);
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    background: white;
+    transition: translate .4s
+}
+
+.menu nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.menu.close{
+    translate: -100%;
+}
